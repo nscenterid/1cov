@@ -1,3 +1,4 @@
+#This is a python program.
 import requests
 import json
 print('AIO 1ndonesia Regional Cov Updates')
