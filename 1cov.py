@@ -9,3 +9,7 @@ def icov_data():
 	response = requests.get(endpoint)
 	data = json.loads(response.text)
 	return str(data)      
+print('Berikut kami tampilkan data Terbaru :')
+print()
+print(icov_data(jumlah_sembuh))
+print('Update time', time())
